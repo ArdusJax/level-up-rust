@@ -1,3 +1,5 @@
+pub mod text_type;
+
 pub fn unique(list: Vec<i32>) -> Vec<i32> {
     list.into_iter().fold(Vec::new(), |mut acc, item| {
         if !acc.contains(&item) {
