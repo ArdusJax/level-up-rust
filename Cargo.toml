@@ -1,0 +1,11 @@
+[workspace]
+members = ["find-unique-items"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Christopher O'Brian"]
+description = "My solutions to the LinkedIn learning course 'level-up-rust'"
+
+[workspace.dependencies]
+test-case = "3.1.0"
